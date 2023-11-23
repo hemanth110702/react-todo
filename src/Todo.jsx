@@ -9,6 +9,7 @@ const Todo = () => {
   );
   const textRef = useRef(null);
   const dateRef = useRef(null);
+  const addBtnRef = useRef(null);
 
   const handleTodo = () => {
     let newTask = textRef.current.value;
@@ -16,6 +17,8 @@ const Todo = () => {
     setTodoList((prevTodoList) => [...prevTodoList, { newTask, newDate }]);
     const updatedTodoList = [...todoList, { newTask, newDate }];
     localStorage.setItem("todo", JSON.stringify(updatedTodoList));
+    textRef.current.value = "";
+    dateRef.current.value = "";
   };
 
   const deleteTask = (id) => {
@@ -29,7 +32,12 @@ const Todo = () => {
   return (
     <div>
       <h1>TODO</h1>
-      <Input textRef={textRef} dateRef={dateRef} handleTodo={handleTodo} />
+      <Input
+        textRef={textRef}
+        dateRef={dateRef}
+        addBtnRef={addBtnRef}
+        handleTodo={handleTodo}
+      />
       <Lists todoList={todoList} deleteTask={deleteTask} />
     </div>
   );

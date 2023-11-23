@@ -1,15 +1,14 @@
-
-const Lists = ({todoList, deleteTask}) => {
+const Lists = ({ todoList, deleteTask }) => {
   return (
-    <div>
+    <div className="tasks-container">
       {todoList.map((item, index) => (
-        <div className="tasks" key={item.newTask}>
+        <div className="tasks" key={index}>
           <div className="tasks-list">
-            <h4>{item.newTask} </h4>
-            <h4>{item.newDate}</h4>
+            <div className="todo-task">{item.newTask} </div>
+            <div className="todo-date">{item.newDate}</div>
           </div>
           <button
-            className="btn btn-danger"
+            className="btn btn-danger delete-btn"
             onClick={() => {
               deleteTask(index);
             }}
@@ -20,6 +19,6 @@ const Lists = ({todoList, deleteTask}) => {
       ))}
     </div>
   );
-}
+};
 
-export default Lists
+export default Lists;
