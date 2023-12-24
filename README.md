@@ -17,8 +17,8 @@ Welcome to the React Todo App! This project is a simple yet effective Todo appli
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hemanth110702/react-todo
-   cd react-todo-app
+   git clone https://github.com/hemanth110702/react-todo.git
+   cd react-todo
 
 2. Install dependencies:
    ```bash
