@@ -1,17 +1,29 @@
+<div id="top"></div>
+
 # React Todo App
+
+<details>
+<summary>Table of contents</summary>
+
+-   [Overview](#overview)
+-   [Technology Stack](#technology-stack)
+-   [Getting Started](#getting-started)
+-   [Features](#features)
+-   [Screenshots](#screenshots)
+-   [Live Link](#live-site)
+
+</details>
+
+## Overview
 
 Welcome to the React Todo App! This project is a simple yet effective Todo application built with React, allowing users to manage their tasks efficiently.
 
-## Features
-
-- **Add and Remove Todos:** Easily add new tasks and remove completed ones.
-- **Responsive Design:** Enjoy a seamless experience across various devices.
-
-## Technologies Used
+## Technology Stack
 
 - React
-- React Hooks (useState, useEffect)
-- CSS for styling
+- HTML
+- CSS 
+- JS
 
 ## Getting Started
 
@@ -19,14 +31,22 @@ Welcome to the React Todo App! This project is a simple yet effective Todo appli
    ```bash
    git clone https://github.com/hemanth110702/react-todo.git
    cd react-todo
+   ```
 
 2. Install dependencies:
    ```bash
    npm install
+   ```
 
 3. Start the development server:
    ```bash
    npm run dev
+   ```
+
+## Features
+
+- **Add and Remove Todos:** Easily add new tasks and remove completed ones.
+- **Responsive Design:** Enjoy a seamless experience across various devices.
 
 ## Screenshots
 
@@ -50,3 +70,5 @@ Welcome to the React Todo App! This project is a simple yet effective Todo appli
 
 ## [LIVE SITE](https://todo-tasks-react.netlify.app/)
 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
