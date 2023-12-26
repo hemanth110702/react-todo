@@ -69,7 +69,7 @@ Welcome to the React Todo App! This project is a simple yet effective Todo appli
 </table>
 
 ## Link
-[ 🚀 LIVE Page](https://todo-tasks-react.netlify.app/)
+[🚀 Live Page](https://todo-tasks-react.netlify.app/)
 
 
 <p align="right"><a href="#top">⬆️ Back to Top</a></p>
